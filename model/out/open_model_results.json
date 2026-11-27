@@ -1,0 +1,365 @@
+{
+ "real_spectra": {
+  "source": "Teramoto, Y. (Kyoto University). Data and code for GAWNSPLS analysis of accelerated weathering spectra of wood coatings. Zenodo, doi:10.5281/zenodo.22971354 (2026), CC BY 4.0",
+  "spectra": {
+   "SFC_60W": 100,
+   "SFC_120W": 60,
+   "PC_60W": 100,
+   "PC_120W": 60
+  },
+  "replicates_per_time": 10,
+  "SFC_first100h_60W": {
+   "acid_ester": {
+    "rel_sd_pct_median": 4.877624157155345,
+    "at0": 0.6338547266310194,
+    "at100": 0.9222110004093672,
+    "change_pct": 45.4924861586157,
+    "signal_to_noise": 8.373125021656772
+   },
+   "carbonyl_index": {
+    "rel_sd_pct_median": 4.126048308810104,
+    "at0": 0.8304555008503106,
+    "at100": 1.3428934709067053,
+    "change_pct": 61.70565063771689,
+    "signal_to_noise": 10.586553569034551
+   }
+  },
+  "PC_first100h_60W": {
+   "acid_ester": {
+    "rel_sd_pct_median": 3.2124889061715995,
+    "at0": 0.647032374903921,
+    "at100": 0.8220867818728534,
+    "change_pct": 27.05496877106446,
+    "signal_to_noise": 4.9309019102179565
+   },
+   "carbonyl_index": {
+    "rel_sd_pct_median": 5.4557467316666255,
+    "at0": 0.856498189015453,
+    "at100": 1.7776593475559679,
+    "change_pct": 107.54969133085872,
+    "signal_to_noise": 18.01311070719444
+   }
+  },
+  "SFC_dose_collapse": {
+   "acid_ester": {
+    "times_120W": [
+     100,
+     200,
+     300,
+     400,
+     500
+    ],
+    "value_120W": [
+     0.9125,
+     0.9458,
+     1.0147,
+     1.0892,
+     1.1161
+    ],
+    "value_60W_at_double_time": [
+     0.9027,
+     0.9634,
+     1.0058,
+     1.0198,
+     1.0814
+    ],
+    "mean_abs_diff_pct": 2.7632587499215355
+   },
+   "carbonyl_index": {
+    "times_120W": [
+     100,
+     200,
+     300,
+     400,
+     500
+    ],
+    "value_120W": [
+     1.4784,
+     1.5423,
+     1.5975,
+     1.6965,
+     1.7259
+    ],
+    "value_60W_at_double_time": [
+     1.455,
+     1.4933,
+     1.5692,
+     1.6775,
+     1.7387
+    ],
+    "mean_abs_diff_pct": 1.7130771788635046
+   }
+  },
+  "PC_dose_collapse": {
+   "acid_ester": {
+    "times_120W": [
+     100,
+     200,
+     300,
+     400,
+     500
+    ],
+    "value_120W": [
+     0.897,
+     0.938,
+     1.0161,
+     1.0361,
+     1.0934
+    ],
+    "value_60W_at_double_time": [
+     0.8723,
+     0.89,
+     0.9794,
+     0.9749,
+     1.0136
+    ],
+    "mean_abs_diff_pct": 5.220763326749185
+   },
+   "carbonyl_index": {
+    "times_120W": [
+     100,
+     200,
+     300,
+     400,
+     500
+    ],
+    "value_120W": [
+     2.662,
+     4.8429,
+     38.5073,
+     16.0728,
+     20.9398
+    ],
+    "value_60W_at_double_time": [
+     2.2794,
+     3.2755,
+     4.8001,
+     5.1241,
+     6.7054
+    ],
+    "mean_abs_diff_pct": 238.56373268013877
+   }
+  },
+  "SFC_dose_clock_train60_test120": {
+   "six_bands": {
+    "r2": 0.723064368942831,
+    "rmse_kwh": 10.78484886514461,
+    "n_test": 60
+   },
+   "carbonyl_index": {
+    "r2": 0.42814727509301875,
+    "rmse_kwh": 15.497681906044274,
+    "n_test": 60
+   }
+  },
+  "SFC_dose_clock_train120_test60": {
+   "six_bands": {
+    "r2": 0.8838022808314502,
+    "rmse_kwh": 6.436044693305509,
+    "n_test": 80
+   },
+   "carbonyl_index": {
+    "r2": 0.7844700670883342,
+    "rmse_kwh": 8.765446561802035,
+    "n_test": 80
+   }
+  },
+  "PC_dose_clock_train60_test120": {
+   "six_bands": {
+    "r2": 0.8443232442694295,
+    "rmse_kwh": 3.8658722883890984,
+    "n_test": 30
+   },
+   "carbonyl_index": {
+    "r2": 0.6405502735340105,
+    "rmse_kwh": 5.874280699858918,
+    "n_test": 30
+   }
+  },
+  "PC_dose_clock_train120_test60": {
+   "six_bands": {
+    "r2": 0.6714877757803397,
+    "rmse_kwh": 5.873140858438892,
+    "n_test": 60
+   },
+   "carbonyl_index": {
+    "r2": -0.5751877685433873,
+    "rmse_kwh": 12.860587688634437,
+    "n_test": 60
+   }
+  }
+ },
+ "india_climate": {
+  "source": "NASA POWER Climatology API v2.10.1 (sources MERRA2, SYN1DEG), community RE, point queries, retrieved 15 Nov 2026 via https://power.larc.nasa.gov/api/temporal/climatology/point",
+  "humid_month_rule": "relative humidity of the month >= 75%",
+  "activation_energy_band_kj_mol": [
+   9,
+   21
+  ],
+  "g154_hours_per_florida_year": 1442,
+  "cities": {
+   "Cochin": {
+    "annual_uva_kwh_m2": 117.1,
+    "uv_dose_vs_florida": 1.057,
+    "temp_weighted_vs_florida": [
+     1.077,
+     1.103
+    ],
+    "humid_dose_share": 0.65,
+    "mean_temp_c": 27.31,
+    "mean_rh_pct": 78.83,
+    "rain_mm_per_year": 2652,
+    "g154_hours_per_year_uv_only": 1525
+   },
+   "Mahabaleshwar": {
+    "annual_uva_kwh_m2": 108.2,
+    "uv_dose_vs_florida": 0.977,
+    "temp_weighted_vs_florida": [
+     0.963,
+     0.945
+    ],
+    "humid_dose_share": 0.357,
+    "mean_temp_c": 24.16,
+    "mean_rh_pct": 67.22,
+    "rain_mm_per_year": 1907,
+    "g154_hours_per_year_uv_only": 1409
+   },
+   "Mumbai": {
+    "annual_uva_kwh_m2": 112.7,
+    "uv_dose_vs_florida": 1.018,
+    "temp_weighted_vs_florida": [
+     1.035,
+     1.058
+    ],
+    "humid_dose_share": 0.383,
+    "mean_temp_c": 26.77,
+    "mean_rh_pct": 67.39,
+    "rain_mm_per_year": 2509,
+    "g154_hours_per_year_uv_only": 1468
+   },
+   "Chennai": {
+    "annual_uva_kwh_m2": 114.8,
+    "uv_dose_vs_florida": 1.037,
+    "temp_weighted_vs_florida": [
+     1.066,
+     1.107
+    ],
+    "humid_dose_share": 0.371,
+    "mean_temp_c": 27.95,
+    "mean_rh_pct": 72.39,
+    "rain_mm_per_year": 1253,
+    "g154_hours_per_year_uv_only": 1495
+   },
+   "Bengaluru": {
+    "annual_uva_kwh_m2": 118.9,
+    "uv_dose_vs_florida": 1.074,
+    "temp_weighted_vs_florida": [
+     1.05,
+     1.019
+    ],
+    "humid_dose_share": 0.387,
+    "mean_temp_c": 23.74,
+    "mean_rh_pct": 67.94,
+    "rain_mm_per_year": 844,
+    "g154_hours_per_year_uv_only": 1549
+   },
+   "Kolkata": {
+    "annual_uva_kwh_m2": 99.6,
+    "uv_dose_vs_florida": 0.9,
+    "temp_weighted_vs_florida": [
+     0.909,
+     0.923
+    ],
+    "humid_dose_share": 0.507,
+    "mean_temp_c": 25.81,
+    "mean_rh_pct": 73.93,
+    "rain_mm_per_year": 1567,
+    "g154_hours_per_year_uv_only": 1298
+   },
+   "Delhi": {
+    "annual_uva_kwh_m2": 97.4,
+    "uv_dose_vs_florida": 0.88,
+    "temp_weighted_vs_florida": [
+     0.899,
+     0.932
+    ],
+    "humid_dose_share": 0.0,
+    "mean_temp_c": 25.6,
+    "mean_rh_pct": 45.56,
+    "rain_mm_per_year": 752,
+    "g154_hours_per_year_uv_only": 1268
+   },
+   "Jodhpur": {
+    "annual_uva_kwh_m2": 116.3,
+    "uv_dose_vs_florida": 1.05,
+    "temp_weighted_vs_florida": [
+     1.078,
+     1.123
+    ],
+    "humid_dose_share": 0.0,
+    "mean_temp_c": 26.74,
+    "mean_rh_pct": 40.11,
+    "rain_mm_per_year": 394,
+    "g154_hours_per_year_uv_only": 1514
+   },
+   "Miami_Florida": {
+    "annual_uva_kwh_m2": 110.7,
+    "uv_dose_vs_florida": 1.0,
+    "temp_weighted_vs_florida": [
+     1.0,
+     1.0
+    ],
+    "humid_dose_share": 0.642,
+    "mean_temp_c": 25.46,
+    "mean_rh_pct": 75.68,
+    "rain_mm_per_year": 1326,
+    "g154_hours_per_year_uv_only": 1442
+   }
+  }
+ },
+ "decision_analysis": {
+  "note": "80 held-out simulated recipes; rule: advance if the whole 90% range is above the target, drop if all of it is below, else full test",
+  "by_target_hours": {
+   "1500": {
+    "n": 80,
+    "advance": 40,
+    "drop": 14,
+    "full_test": 26,
+    "verdict_at_100h_pct": 67.5,
+    "wrong_drops": 0,
+    "wrong_advances": 0,
+    "chamber_hours_saved_pct": 64.125
+   },
+   "2000": {
+    "n": 80,
+    "advance": 25,
+    "drop": 22,
+    "full_test": 33,
+    "verdict_at_100h_pct": 58.75,
+    "wrong_drops": 0,
+    "wrong_advances": 0,
+    "chamber_hours_saved_pct": 55.8125
+   },
+   "2500": {
+    "n": 80,
+    "advance": 9,
+    "drop": 34,
+    "full_test": 37,
+    "verdict_at_100h_pct": 53.75,
+    "wrong_drops": 0,
+    "wrong_advances": 0,
+    "chamber_hours_saved_pct": 51.0625
+   },
+   "3000": {
+    "n": 80,
+    "advance": 2,
+    "drop": 49,
+    "full_test": 29,
+    "verdict_at_100h_pct": 63.74999999999999,
+    "wrong_drops": 0,
+    "wrong_advances": 0,
+    "chamber_hours_saved_pct": 60.5625
+   }
+  }
+ }
+}

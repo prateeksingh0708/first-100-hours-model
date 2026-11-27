@@ -1,0 +1,182 @@
+[
+ {
+  "case": "Baseline settings",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 4.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 11.102908586577342,
+  "model_r2": 0.8437118452699759,
+  "carbonyl_error_pct": 25.24640499490304,
+  "carbonyl_r2": 0.37486189269019965,
+  "failure_h_p5_p50_p95": [
+   1005.7,
+   1925.5,
+   5128.4
+  ]
+ },
+ {
+  "case": "Oxidation rate halved",
+  "settings": {
+   "kscale": 0.5,
+   "K_STAB": 4.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 16.690936745335083,
+  "model_r2": 0.7371079011742689,
+  "carbonyl_error_pct": 28.04626298761467,
+  "carbonyl_r2": 0.25472257668576537,
+  "failure_h_p5_p50_p95": [
+   1768.05,
+   3483.5,
+   9668.949999999999
+  ]
+ },
+ {
+  "case": "Oxidation rate doubled",
+  "settings": {
+   "kscale": 2.0,
+   "K_STAB": 4.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 7.734536855774804,
+  "model_r2": 0.9165774746451815,
+  "carbonyl_error_pct": 17.89654129405143,
+  "carbonyl_r2": 0.34965975504039537,
+  "failure_h_p5_p50_p95": [
+   558.6,
+   1143.0,
+   2704.9999999999995
+  ]
+ },
+ {
+  "case": "No stabiliser effect",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 0.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 8.613801515259635,
+  "model_r2": 0.9276755807340583,
+  "carbonyl_error_pct": 19.76673584941375,
+  "carbonyl_r2": 0.7336438300915638,
+  "failure_h_p5_p50_p95": [
+   642.8,
+   1497.0,
+   4533.199999999999
+  ]
+ },
+ {
+  "case": "Stabiliser effect halved",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 2.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 9.37583241469403,
+  "model_r2": 0.889029022708081,
+  "carbonyl_error_pct": 23.63958719489176,
+  "carbonyl_r2": 0.33043732005363524,
+  "failure_h_p5_p50_p95": [
+   913.4,
+   1796.5,
+   4940.05
+  ]
+ },
+ {
+  "case": "Stabiliser effect doubled",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 8.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 13.676043146816003,
+  "model_r2": 0.7726016021639018,
+  "carbonyl_error_pct": 23.643614177151818,
+  "carbonyl_r2": 0.31867829205581777,
+  "failure_h_p5_p50_p95": [
+   1128.8,
+   2115.5,
+   5289.15
+  ]
+ },
+ {
+  "case": "Stabiliser fades in 200 h",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 4.0,
+   "TAU_STAB": 200.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 12.592781223062227,
+  "model_r2": 0.8392575157260165,
+  "carbonyl_error_pct": 25.725390169298056,
+  "carbonyl_r2": 0.35586606067095383,
+  "failure_h_p5_p50_p95": [
+   885.0,
+   1742.5,
+   4835.45
+  ]
+ },
+ {
+  "case": "Stabiliser fades in 800 h",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 4.0,
+   "TAU_STAB": 800.0,
+   "A_AUTO": 3.0
+  },
+  "model_error_pct": 9.569325610552532,
+  "model_r2": 0.8668227361639715,
+  "carbonyl_error_pct": 21.200402127258776,
+  "carbonyl_r2": 0.35355392759348314,
+  "failure_h_p5_p50_p95": [
+   1116.2,
+   2284.5,
+   5408.049999999999
+  ]
+ },
+ {
+  "case": "Self-acceleration halved",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 4.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 1.5
+  },
+  "model_error_pct": 11.562457361655799,
+  "model_r2": 0.8363180766360219,
+  "carbonyl_error_pct": 26.948181462320687,
+  "carbonyl_r2": 0.35553590949021086,
+  "failure_h_p5_p50_p95": [
+   1172.55,
+   2361.0,
+   6366.5
+  ]
+ },
+ {
+  "case": "Self-acceleration doubled",
+  "settings": {
+   "kscale": 1.0,
+   "K_STAB": 4.0,
+   "TAU_STAB": 400.0,
+   "A_AUTO": 6.0
+  },
+  "model_error_pct": 10.800588106581554,
+  "model_r2": 0.857056763177195,
+  "carbonyl_error_pct": 21.40493430830984,
+  "carbonyl_r2": 0.39531483219447283,
+  "failure_h_p5_p50_p95": [
+   811.65,
+   1541.0,
+   3785.2999999999997
+  ]
+ }
+]
